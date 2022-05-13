@@ -1,0 +1,179 @@
+a = {
+    2: {
+        correct_answer: True,
+        question: `_________ are special words understood by python`,
+        right_answer_message: `Keywords are the reserved words in Python. We cannot use a keyword as a variable name, function name or any other identifier.`,
+        wrong_answer_message: `Keywords are the reserved words in Python. We cannot use a keyword as a variable name, function name or any other identifier.`,
+        button_1_text: `Keywords`,
+        button_2_text: `Special-words`
+    },
+    3: {
+        correct_answer: False,
+        question: `__________ is used to display the output content`,
+        right_answer_message: `print() is used to display the output content`,
+        wrong_answer_message: `print() is used to display the output content`,
+        button_1_text: `display_output()`,
+        button_2_text: `print()`
+    },
+    4: {
+        correct_answer: True,
+        question: `To assign values to a variable in Python, we will use the ________ assignment operator`,
+        right_answer_message: `To assign values to a variable in Python, we will use the assignment (=) operator.`,
+        wrong_answer_message: `To assign values to a variable in Python, we will use the assignment (=) operator.`,
+        button_1_text: `= , I.e a = 80`,
+        button_2_text: `->, i.e a -> 80`
+    },
+    9: {
+        correct_answer: True,
+        question: `_________ in python is like a container which can store values`,
+        right_answer_message: `You can consider a variable to be a temporary storage space where you can keep changing values.`,
+        wrong_answer_message: `You can consider a variable to be a temporary storage space where you can keep changing values.`,
+        button_1_text: `Variables`,
+        button_2_text: `Data types`
+    },
+    10: {
+        correct_answer: False,
+        question: `Which one of the following is the correct way of declaring and initializing a variable, x with the value 7?`,
+        right_answer_message: `The correct way of declaring and initializing a variable, x with the value 7 is x=7.`,
+        wrong_answer_message: `The correct way of declaring and initializing a variable, x with the value 7 is x=7.`,
+        button_1_text: `declare x=7`,
+        button_2_text: `x=7`
+    },
+    12: {
+        correct_answer: False,
+        question: `Let's learn Naming rules
+        <br>
+        <br>
+
+Naming Rule 1:
+<br>
+A variable name cannot start with a number
+<br>
+9a = 9
+<br>
+Is this correct?
+`,
+        right_answer_message: `9a variable name starts with a number. So its wrong`,
+        wrong_answer_message: `9a variable name starts with a number. So its wrong`,
+        button_1_text: `Yes`,
+        button_2_text: `No`
+    },
+    13: {
+        correct_answer: True,
+        question: `Naming Rule 2:<br>
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )<br>
+<br>
+a9a_ = 9
+<br>
+Is this variable declaration correct?
+`,
+        right_answer_message: `Yes, it doesn’t start with a number, it has allowed special character _ , and alpha-numeric characters only.`,
+        wrong_answer_message: `Yes, it doesn’t start with a number, it has allowed special character _ , and alpha-numeric characters only.`,
+        button_1_text: `Yes`,
+        button_2_text: `No`
+    },
+    14: {
+        correct_answer: False,
+        question: `_9$%a = 9
+        <br>
+
+Is this variable declaration correct?
+`,
+        right_answer_message: `No, It has special characters that aren’t allowed`,
+        wrong_answer_message: `No, It has special characters that aren’t allowed`,
+        button_1_text: `Yes`,
+        button_2_text: `No`
+    },
+    15: {
+        correct_answer: False,
+        question: `Naming rule 3:<br>
+A variable name must start with a letter or the underscore character<br>
+
+
+Which is the right variable declaration?`,
+        right_answer_message: `_9z = “car” is correct because it starts with _ and not a number`,
+        wrong_answer_message: `_9z = “car” is correct because it starts with _ and not a number`,
+        button_1_text: `9z = “car”
+        `,
+        button_2_text: `_9z = “car”
+        `
+    },
+    16: {
+        correct_answer: True,
+        question: `Rule 4:<br>
+Variable names are case-sensitive <br><br>
+
+Statement: age, Age and AGE are three different variables.`,
+        right_answer_message: `Yes, since Variable names are case-sensitive, age, Age and AGE are three different variables`,
+        wrong_answer_message: `Yes, since Variable names are case-sensitive, age, Age and AGE are three different variables`,
+        button_1_text: `True`,
+        button_2_text: `False`
+    },
+    17: {
+        correct_answer: True,
+        question: `<p style="text-align: justify;">The 4 naming rules are:<br>
+•	A variable name must start with a letter or the underscore character<br>
+•	A variable name cannot start with a number<br>
+•	A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )<br>
+•	Variable names are case-sensitive (age, Age and AGE are three different variables)</p>
+`,
+        right_answer_message: ``,
+        wrong_answer_message: ``,
+        button_1_text: `True`,
+        button_2_text: `False`
+    },
+    20: {
+        correct_answer: True,
+        question: `What is type casting in python?`,
+        right_answer_message: ` Type casting means changing the property of data types.`,
+        wrong_answer_message: ` Type casting means changing the property of data types.`,
+        button_1_text: `Change data type property`,
+        button_2_text: `Declaration of data type`
+    },
+    24: {
+        correct_answer: False,
+        question: `The correct way to declare a variable x of float data type in python is`,
+        right_answer_message: `We just write the variable name and can assign any type of value and then the type of variable will change according to the value we assign in it. So, x = 2.5 is correct.
+x = float(2.5) is also another correct way to define it.`,
+        wrong_answer_message: `We just write the variable name and can assign any type of value and then the type of variable will change according to the value we assign in it. So, x = 2.5 is correct.
+x = float(2.5) is also another correct way to define it.`,
+        button_1_text: `float(2.5)`,
+        button_2_text: `x = 2.5`
+    },
+    25: {
+        correct_answer: False,
+        question: `Which of the following can convert the string to a float number ?`,
+        right_answer_message: `float(str) is the right way to convert the str string into float`,
+        wrong_answer_message: `float(str) is the right way to convert the str string into float`,
+        button_1_text: `float(int,str)`,
+        button_2_text: `float(str)`
+    },
+    28: {
+        correct_answer: True,
+        question: `Which is the correct operator for x power y?`,
+        right_answer_message: `In python, power operator is x**y i.e. 2**5=32.`,
+        wrong_answer_message: `In python, power operator is x**y i.e. 2**5=32.`,
+        button_1_text: `X**y`,
+        button_2_text: `X^y`
+    },
+    29: {
+        correct_answer: False,
+        question: `What is the value of the expression 100 / 25?`,
+        right_answer_message: `The result of standard division is always float. The value of 100 // 25 (integer division) is 4.`,
+        wrong_answer_message: `The result of standard division is always float. The value of 100 // 25 (integer division) is 4.`,
+        button_1_text: `4`,
+        button_2_text: `4.0`
+    },
+    30: {
+        correct_answer: True,
+        question: `What is the output of the following code?<br>
+
+<p style="text-align:justify;">x = 6<br>
+y = 2<br>
+print(x ** y, x // y)</p>`,
+        right_answer_message: `The Exponent (**) operator performs exponential (power) calculation. so here 6 ** 2 means 6*6 = 36 The // is the Floor Division operator so 6//2=3`,
+        wrong_answer_message: `The Exponent (**) operator performs exponential (power) calculation. so here 6 ** 2 means 6*6 = 36 The // is the Floor Division operator so 6//2=3`,
+        button_1_text: `36 3`,
+        button_2_text: `66 0`
+    },
+}
