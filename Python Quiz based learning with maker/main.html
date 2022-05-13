@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        background-color: rgb(60, 0, 109);
+    }
+    
+    #if {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #r {
+        height: 100vh;
+        width: 60vw;
+        display: block;
+        float: left;
+    }
+    
+    #c {
+        height: 100vh;
+        width: 38vw;
+        display: block;
+        float: right;
+        margin-right: 1vw;
+        margin-top: 2vh;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <title>ECB Quiz Maker</title>
+</head>
+
+<body>
+
+    <div id="r"><iframe id="if" src="index.html"></iframe></div>
+
+    <div id="c">
+        <div class="row">
+            <button class="btn" id="b2" onclick="run_code();">Run Code</button>
+            <button class="btn" id="b3" onclick="download_code();">Download Code</button>
+        </div>
+        <div class="row" style="display: block;margin-bottom: 5px;">
+            <label>Main Question:</label>
+            <textarea class="materialize-textarea white-text" id="q" rows="4" cols="50"></textarea></div>
+
+        <div class="row input-field">
+            <label>Correct Answer: Left / Right</label>
+            <br>
+            <form action="#">
+                <p class="range-field">
+                    <input type="range" id="tf" min="0" max="1" />
+                </p>
+            </form>
+        </div>
+
+        <div class="row" style="display: block;margin-bottom: 5px;">
+            <label>Left Button Text</label>
+            <textarea class="materialize-textarea white-text" id="lbt" rows="4" cols="50"></textarea></div>
+
+        <div class="row" style="display: block;margin-bottom: 5px;">
+            <label>Right Button Text</label>
+            <textarea class="materialize-textarea white-text" id="rbt" rows="4" cols="50"></textarea></div>
+
+
+
+        <div class="row" style="display: block;margin-bottom: 5px;">
+            <label>Correct Answer Message:</label>
+            <textarea id="r_a" class="materialize-textarea white-text" rows="4" cols="50"></textarea></div>
+
+
+        <div class="row" style="display: block;margin-bottom: 5px;">
+            <label>Wrong Answer Message:</label>
+            <textarea id="w_a" class="materialize-textarea white-text" rows="4" cols="50"></textarea></div>
+
+
+
+        <div class="row" style="display: block;margin-bottom: 5px;">
+            <label for="w4">Download File name:</label>
+            <textarea id="df" class="materialize-textarea white-text" rows="4" cols="50">L1_Q1</textarea></div>
+    </div>
+    <script src="src/download_code.js"></script>
+</body>
+
+</html>
